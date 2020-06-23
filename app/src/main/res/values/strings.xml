@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CovidApp</string>
+    <string name="AL">AL</string>
+    <string name="ak">AK</string>
+    <string name="select_a_state">Select a State</string>
+    <string name="az">AZ</string>
+</resources>

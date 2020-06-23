@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:textColor="@android:color/black"
+            android:fontFamily="casual"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="@string/select_a_state"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/stateAL"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/textView"
+            android:layout_centerHorizontal="true"
+            android:text="@string/AL"
+            android:fontFamily="casual"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            tools:text="AL" />
+        <Button
+            android:id="@+id/stateAK"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateAL"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/ak"
+            android:fontFamily="casual"
+            tools:text="AK" />
+        <Button
+            android:id="@+id/stateAZ"
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"
+            android:layout_below="@id/stateAK"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="@string/az" />
+        <Button
+            android:id="@+id/stateAR"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/stateAZ"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="AR" />
+        <Button
+            android:id="@+id/stateCA"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateAR"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="CA" />
+        <Button
+            android:id="@+id/stateCO"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateCA"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="CO" />
+        <Button
+            android:id="@+id/stateCT"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateCO"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="CT" />
+        <Button
+            android:id="@+id/stateDE"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateCT"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="DE" />
+        <Button
+            android:id="@+id/stateFL"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateDE"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="FL" />
+        <Button
+            android:id="@+id/stateGA"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateFL"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="GA" />
+        <Button
+            android:id="@+id/stateHI"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateGA"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="HI" />
+        <Button
+            android:id="@+id/stateID"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateHI"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="ID" />
+        <Button
+            android:id="@+id/stateIL"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateID"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="IL" />
+        <Button
+            android:id="@+id/stateIN"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateIL"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="IN" />
+        <Button
+            android:id="@+id/stateIA"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateIN"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="IA" />
+        <Button
+            android:id="@+id/stateKS"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateIA"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="KS" />
+        <Button
+            android:id="@+id/stateKY"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateKS"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="KY" />
+        <Button
+            android:id="@+id/stateLA"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateKY"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="LA" />
+        <Button
+            android:id="@+id/stateME"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateLA"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="ME" />
+        <Button
+            android:id="@+id/stateMD"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateME"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="MD" />
+        <Button
+            android:id="@+id/stateMA"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateMD"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="MA" />
+        <Button
+            android:id="@+id/stateMI"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateMA"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="MI" />
+        <Button
+            android:id="@+id/stateMN"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateMI"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="MN" />
+        <Button
+            android:id="@+id/stateMS"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateMN"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="MS" />
+        <Button
+            android:id="@+id/stateMO"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/stateMS"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="MO" />
+        <Button
+            android:id="@+id/stateMT"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateMO"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="MT" />
+        <Button
+            android:id="@+id/stateNE"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateMT"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="NE" />
+        <Button
+            android:id="@+id/stateNV"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateNE"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="NV" />
+        <Button
+            android:id="@+id/stateNH"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateNV"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="NH" />
+        <Button
+            android:id="@+id/stateNJ"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateNH"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="NJ" />
+        <Button
+            android:id="@+id/stateNM"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateNJ"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="NM" />
+        <Button
+            android:id="@+id/stateNY"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateNM"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="NY" />
+        <Button
+            android:id="@+id/stateNC"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateNY"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="NC" />
+        <Button
+            android:id="@+id/stateND"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateNC"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="ND" />
+        <Button
+            android:id="@+id/stateOH"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateND"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="OH" />
+        <Button
+            android:id="@+id/stateOK"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateOH"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="OK" />
+        <Button
+            android:id="@+id/stateOR"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateOK"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="OR" />
+        <Button
+            android:id="@+id/statePA"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateOR"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="PA" />
+        <Button
+            android:id="@+id/stateRI"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/statePA"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="RI" />
+        <Button
+            android:id="@+id/stateSC"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateRI"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="SC" />
+        <Button
+            android:id="@+id/stateSD"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateSC"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="SD" />
+        <Button
+            android:id="@+id/stateTN"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateSD"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="TN" />
+        <Button
+            android:id="@+id/stateTX"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateTN"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="TX" />
+        <Button
+            android:id="@+id/stateUT"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateTX"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="UT" />
+        <Button
+            android:id="@+id/stateVT"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateUT"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="VT" />
+        <Button
+            android:id="@+id/stateVA"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateVT"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="VA" />
+        <Button
+            android:id="@+id/stateWA"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateVA"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="WA" />
+        <Button
+            android:id="@+id/stateWV"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateWA"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="WV" />
+        <Button
+            android:id="@+id/stateWY"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stateWV"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="casual"
+            android:text="WY" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
